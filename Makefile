@@ -15,8 +15,3 @@ package-install:
 
 lint:
 	poetry run flake8 brain_games
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 69650e45eb5e85ee6249757f316de0e942921134

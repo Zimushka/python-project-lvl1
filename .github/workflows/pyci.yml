@@ -1,5 +1,7 @@
 name: Python CI
 
+name: Python CI
+
 on:
   - push
   - pull_request
@@ -24,4 +26,11 @@ jobs:
           make install
       - name: Run linter and pytest
         run: |
-          make lint
+          make check
+      - name: Test & publish code coverage
+        uses: paambaati/codeclimate-action@v2.7.4
+        env:
+          CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
+        with:
+          coverageCommand: make test-coverage
+          debug: true

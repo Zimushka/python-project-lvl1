@@ -2,10 +2,8 @@
 
 """Здесь будет доктайп."""
 
-# Начало импорта
 import prompt
 from random import randint
-# Конец импорта
 
 print('Answer "yes" if the number is even, otherwise answer "no"')
 

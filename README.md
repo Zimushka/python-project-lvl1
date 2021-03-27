@@ -6,3 +6,6 @@
 
 ### flake8 Badge:
 ![WTF](https://github.com/Zimushka/python-project-lvl1/actions/workflows/pyci.yml/badge.svg)
+
+### even-game:
+[![asciicast](https://asciinema.org/a/0gocl5JkahFSqjSXkmu3vBEl1.png)](https://asciinema.org/a/0gocl5JkahFSqjSXkmu3vBEl1)

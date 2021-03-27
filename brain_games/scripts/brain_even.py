@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.9
+# !/usr/bin/env python
 # /home/zima/x_project/python-project-lvl1/.venv/bin/brain-even
 """Здесь будет доктайп."""
 

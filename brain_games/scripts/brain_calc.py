@@ -2,8 +2,7 @@
 # /home/zima/x_project/python-project-lvl1/.venv/bin/brain-calc
 """Здесь будет доктайп."""
 
-from random import choice
-from random import randrange
+from random import choice, randrange
 
 import prompt
 from brain_games.scripts.brain_games import greet
@@ -23,7 +22,7 @@ while count < 3:
     s_number = randrange(1, 50)
     oper_random = choice(operators)
     print('Question: {0} {1} {2}'.format(f_number, oper_random, s_number))
-    correct_answer = eval(str(f_number) + str(oper_random) + str(s_number))
+    correct_answer = eval(str((f_number) + (oper_random) + (s_number)))
     answer = prompt.string('Your answer: ')
 
     if str(correct_answer) == answer:
